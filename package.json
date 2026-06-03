@@ -1,0 +1,16 @@
+{
+  "name": "product-launch-tool-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers API for Product Launch Tool",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "vitest": "^1.0.0"
+  }
+}
